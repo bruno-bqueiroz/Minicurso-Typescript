@@ -1,6 +1,6 @@
 import {Request, Response} from 'express';
 
-function isOdd(numb){
+function isOdd(numb: number){
     if (numb % 2 !== 0){
         return true;
     } else return false;
